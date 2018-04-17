@@ -1,6 +1,5 @@
 body {
-  background-color: gray;
-  background-size: cover;
+  background-color: #242582;
 }
 
 .container-fluid {
@@ -23,3 +22,26 @@ div {
 h1 {
   color: black;
 }
+
+#hit{
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  width: 75%;
+  max-width:75%;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+#text {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#hit:hover{
+background: lightblue; 
+}
+
